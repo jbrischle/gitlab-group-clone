@@ -1,7 +1,7 @@
 const request = require('request');
 const clone = require('git-clone');
 
-const gitlabApiUrl = 'https://gitlab.markant.com/api/v4/groups/';
+const gitlabApiUrl = 'https://gitlab.example.com/api/v4/';
 const groupId = 557;
 const privateToken = 'XXX';
 const baseDir = 'C:\\GIT';
